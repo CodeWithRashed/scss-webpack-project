@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'font_name';
-    src: url('fonts/') format('woff2'),
-         url('fonts/') format('woff');
+    font-family: 'bookItalic';
+    src: url('fonts/axiata_bookitalic_1-webfont.woff2') format('woff2'),
+         url('fonts/axiata_bookitalic_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
