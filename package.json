@@ -1,0 +1,36 @@
+{
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --config webpack.dev.js --open",
+        "dev": "webpack-dev-server --config webpack.dev.js --open",
+        "development": "webpack-dev-server --config webpack.dev.js --open",
+        "build": "webpack --config webpack.prod.js",
+        "prod": "webpack --config webpack.prod.js",
+        "production": "webpack --config webpack.prod.js",
+        "watch": "webpack --watch --progress --config webpack.watch.js"
+    },
+    "keywords": [],
+    "author": "Rashed",
+    "license": "ISC",
+    "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^12.0.2",
+        "css-loader": "^7.1.2",
+        "css-minimizer-webpack-plugin": "^7.0.0",
+        "html-loader": "^5.0.0",
+        "html-webpack-plugin": "^5.6.0",
+        "mini-css-extract-plugin": "^2.9.0",
+        "sass": "^1.77.4",
+        "sass-loader": "^14.2.1",
+        "style-loader": "^4.0.0",
+        "terser-webpack-plugin": "^5.3.10",
+        "webpack": "^5.91.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.0.4",
+        "webpack-merge": "^5.10.0",
+        "write-file-webpack-plugin": "^4.5.1"
+    }
+}
